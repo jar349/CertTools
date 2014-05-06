@@ -87,14 +87,14 @@ namespace certhex
 
         public static void PrintUsage()
         {
-            Console.WriteLine("Usage: convert.exe <command> <sourceFile> <destFile>");
+            Console.WriteLine("Usage: certhex.exe <command> <sourceFile> <destFile>");
             Console.WriteLine();
             Console.WriteLine("  Commands: ");
             Console.WriteLine("    -h2c    Hex String to Certificate");
             Console.WriteLine("    -c2h    Certificate to Hex String");
             Console.WriteLine();
             Console.WriteLine("  Example: ");
-            Console.WriteLine("    convert.exe -h2c myHex.txt myCert.cer");
+            Console.WriteLine("    certhex.exe -h2c myHex.txt myCert.cer");
         }
     }
 }
