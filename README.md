@@ -6,6 +6,7 @@ Utility programs for managing certs in Microsoft Active Directory
 ### certhex
 Converts between Hex strings (as found in AD) and DER-formatted certs
 
+```
 >Usage: certhex.exe &lt;command&gt; &lt;sourceFile&gt; &lt;destFile&gt;
 >
 >&nbsp;&nbsp;Commands:
@@ -16,10 +17,12 @@ Converts between Hex strings (as found in AD) and DER-formatted certs
 >&nbsp;&nbsp;Example:
 >
 >&nbsp;&nbsp;&nbsp;&nbsp;certhex.exe -h2c myHex.txt myCert.cer
+```
 
 ### adcerts
 Lists, Adds, Exports, and Removes certs to and from Active Directory
 
+```
 >Usage: adcerts.exe &lt;command&gt; [options]
 >
 >&nbsp;&nbsp;Commands:
@@ -54,3 +57,4 @@ Lists, Adds, Exports, and Removes certs to and from Active Directory
 >&nbsp;&nbsp;&nbsp;&nbsp;Remove the cert with the given serial number from a user (specified by DN)
 >
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adcerts.exe -del "CN=John A. Ruiz,CN=Users,DC=example,DC=com" 62905F2500000000004D
+```
