@@ -10,8 +10,8 @@ Converts between Hex strings (as found in AD) and DER-formatted certs
 >
 >&nbsp;&nbsp;Commands:
 >
-> *h2c&nbsp;&nbsp;&nbsp;&nbsp;Hex String to Certificate
-> *c2h&nbsp;&nbsp;&nbsp;&nbsp;Certificate to Hex String
+> - h2c&nbsp;&nbsp;&nbsp;&nbsp;Hex String to Certificate
+> - c2h&nbsp;&nbsp;&nbsp;&nbsp;Certificate to Hex String
 >
 >&nbsp;&nbsp;Example:
 >
@@ -24,10 +24,10 @@ Lists, Adds, Exports, and Removes certs to and from Active Directory
 >
 >&nbsp;&nbsp;Commands:
 >
-> *list&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lists all certs for a user by serial number
-> *export&nbsp;&nbsp;&nbsp;Get certs for a user
-> *put&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Publish a cert for a user
-> *del&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove a cert from a user
+> - list&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lists all certs for a user by serial number
+> - export&nbsp;&nbsp;&nbsp;Get certs for a user
+> - put&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Publish a cert for a user
+> - del&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove a cert from a user
 >
 >&nbsp;&nbsp;Examples:
 >
